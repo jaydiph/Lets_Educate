@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "68705990442",
+    "project_id": "lets-educate-8e658",
+    "storage_bucket": "lets-educate-8e658.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68705990442:android:630f31b0d5bafe70039053",
+        "android_client_info": {
+          "package_name": "com.example.lets_educate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68705990442-v5qi82bnhsk6vsjflmgfs04s089m7j7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxXQLfYq6CVBeVI0zRAm-aR-FPE3sHdnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68705990442-v5qi82bnhsk6vsjflmgfs04s089m7j7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

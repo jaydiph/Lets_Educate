@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/help"
+        android:title="HELP"
+        />
+    <item android:id="@+id/aboutus"
+
+        android:title="ABOUT US"
+        />
+
+    <item android:id="@+id/contactus"
+
+        android:title="CONTACT US"
+        />
+    <item android:id="@+id/termscondition"
+
+        android:title="TERMS &amp; CONDITION"
+        />
+
+    <item android:id="@+id/feedback"
+
+        android:title="FEEDBACK"
+        />
+    <item android:id="@+id/logout"
+
+        android:title="LOGOUT"
+        />
+
+
+</menu>

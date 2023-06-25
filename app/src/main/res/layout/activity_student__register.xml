@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_register">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+
+                tools:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="160dp"
+                android:text="Registration"
+                android:textColor="@color/light"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"
+                android:text="Persional Details :"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="240dp" />
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="300dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="250dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="Enter First name"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="300dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="310dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="Enter Last name"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/emailstudent"
+                android:layout_width="300dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="370dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="Enter Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/addressstudent"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="450dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="Enter Address"
+                android:inputType="textPostalAddress"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/phonestudent"
+                android:layout_width="300dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="550dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="Enter Phone No"
+                android:inputType="phone"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/your_school_college"
+                android:layout_width="300dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="610dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="Enter School/Collage"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/qualificationstudent"
+                android:layout_width="300dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="670dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="Enter Qualification"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/favsubject"
+                android:layout_width="300dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="730dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="Enter your favorite subject"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/previousyearpercentage"
+                android:layout_width="300dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="790dp"
+                android:autofillHints=""
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="Enter previous year percentage"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingRight="20dp"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/submitstudent"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="920dp"
+                android:background="@drawable/borderbutton"
+                android:text="Submit"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="900dp"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="960dp"
+                android:text="" />
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="850dp"
+                android:gravity="center_horizontal"
+                android:text="I Agree On Let's Educate"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.797" />
+
+            <TextView
+                android:id="@+id/tc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="875dp"
+                android:layout_marginRight="15dp"
+                android:text="Terms &amp; Condition"
+                android:textColor="@color/blue"
+                android:textSize="20sp" />
+
+
+        </FrameLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

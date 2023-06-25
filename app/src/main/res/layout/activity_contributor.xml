@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContributorActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/light"
+        android:textFontWeight="10"
+        android:gravity="center"
+        android:id="@+id/tv1"
+        android:text="Fill in the avaialble facilities details here"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/border"
+        android:id="@+id/edtInstituteName"
+        android:paddingLeft="15dp"
+        android:paddingRight="20dp"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="15dp"
+        android:textColorHint="@color/material_on_surface_disabled"
+        android:hint="     Institute Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/border"
+        android:layout_below="@id/edtInstituteName"
+        android:textColorHint="@color/material_on_surface_disabled"
+        android:id="@+id/edtaddress"
+        android:inputType="textPostalAddress"
+        android:paddingLeft="15dp"
+        android:paddingRight="20dp"
+        android:maxLines="3"
+        android:layout_marginTop="15dp"
+        android:hint="Address"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtaddress"
+        android:id="@+id/swlabclass"
+        android:layout_marginTop="15dp"
+        android:checked="true"
+        android:textSize="20sp"
+        android:text="Do you have a lab or classroom?"
+        android:textOff="Lab"
+        android:textOn="Class Room"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/border"
+        android:layout_below="@id/swlabclass"
+        android:textColorHint="@color/material_on_surface_disabled"
+        android:id="@+id/edtCapacity"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="     Sitting Capacity"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/border"
+        android:layout_below="@id/edtCapacity"
+        android:textColorHint="@color/material_on_surface_disabled"
+        android:id="@+id/edtavailableComputer"
+        android:paddingLeft="15dp"
+        android:paddingRight="20dp"
+        android:inputType="number"
+        android:layout_marginTop="15dp"
+        android:hint="   Number of Computers"/>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtavailableComputer"
+        android:id="@+id/swprojector"
+        android:layout_marginTop="15dp"
+        android:checked="true"
+        android:textSize="20sp"
+        android:text="Do you have a Projector?"
+        android:textOff="No"
+        android:textOn="Yes"
+        tools:ignore="HardcodedText" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swprojector"
+        android:id="@+id/swWhiteBoard"
+        android:layout_marginTop="15dp"
+        android:checked="true"
+        android:textSize="20sp"
+        android:text="Do you have a White Board?"
+        android:textOff="No"
+        android:textOn="Yes"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swWhiteBoard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/borderbutton"
+        android:text="Submit"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp" />
+</RelativeLayout>
+</ScrollView>
